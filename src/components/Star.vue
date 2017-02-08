@@ -24,7 +24,7 @@ export default {
     width: 1.0rem;
     height: 0.199rem;
     overflow: hidden;
-    background: url(/static/rating.png);
+    background: url('../../static/rating.png');
     background-size: cover;
   }
   .bigstar10 {

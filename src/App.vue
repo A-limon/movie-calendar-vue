@@ -77,7 +77,11 @@ export default {
 <style>
 @font-face {
   font-family: 'DietDidotExtra';
-  src: url('/static/font/DietDidotExtra.eot?#font-spider') format('embedded-opentype'), url('/static/font/DietDidotExtra.woff2') format('woff2'), url('/static/font/DietDidotExtra.woff') format('woff'), url('/static/font/DietDidotExtra.ttf') format('truetype'), url('/static/font/DietDidotExtra.svg') format('svg');
+  src: url('../static/font/DietDidotExtra.eot?#font-spider') format('embedded-opentype'),
+       url('../static/font/DietDidotExtra.woff2') format('woff2'),
+       url('../static/font/DietDidotExtra.woff') format('woff'),
+       url('../static/font/DietDidotExtra.ttf') format('truetype'),
+       url('../static/font/DietDidotExtra.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
