@@ -4,7 +4,7 @@
     <header class="header">
       <Today :calendar="calendar" :today="today"></Today>
     </header>
-    <Date :calendar="calendar" :today="today"></Date>
+    <Main :calendar="calendar" :today="today"></Main>
     <Person :calendar="calendar"></Person>
     <Movie :calendar="calendar"></Movie>
   </template>
@@ -13,7 +13,7 @@
 
 <script>
 import Today from './components/Today';
-import Date from './components/Date';
+import Main from './components/Main';
 import Person from './components/Person';
 import Movie from './components/Movie';
 import axios from 'axios';
@@ -62,7 +62,6 @@ export default {
         }
       }.bind(this))
       .catch(function (error) {
-        alert(error)
         alert('抱歉发生错误');
         console.error(error);
       });

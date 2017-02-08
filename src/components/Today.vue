@@ -1,5 +1,5 @@
 <template>
-	<div :class="['today','l-flex',{'weekend': isWeekend}]">
+  <div :class="['today','l-flex',{'weekend': isWeekend}]">
     <span class="month">{{ monthToShow }}月</span>
     <span class="week">星期{{ dayToShow }}</span>
     <span class="lunar">农历{{ calendar.lunar_date }}</span>
@@ -13,7 +13,7 @@ export default {
     today: {
       type: Date
     },
-  	calendar: {
+    calendar: {
       type: Object
     }
   },
@@ -49,7 +49,7 @@ export default {
 </script>
 
 <style scoped>
-	.today {
+  .today {
     width: 7rem;
     height: 1rem;
     margin: 0 auto;

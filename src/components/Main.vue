@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: 'Date',
+  name: 'Main',
   props: {
     today: {
       type: Date
