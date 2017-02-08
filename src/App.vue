@@ -4,7 +4,7 @@
     <header class="header">
       <Today :calendar="calendar" :today="today"></Today>
     </header>
-    <Main :calendar="calendar" :today="today"></Main>
+    <Detailed :calendar="calendar" :today="today"></Detailed>
     <Person :calendar="calendar"></Person>
     <Movie :calendar="calendar"></Movie>
   </template>
@@ -13,7 +13,7 @@
 
 <script>
 import Today from './components/Today';
-import Main from './components/Main';
+import Detailed from './components/Detailed';
 import Person from './components/Person';
 import Movie from './components/Movie';
 import axios from 'axios';
@@ -41,7 +41,7 @@ export default {
   },
   components: {
     Today,
-    Date,
+    Detailed,
     Person,
     Movie,
   },
