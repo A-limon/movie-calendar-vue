@@ -1,6 +1,6 @@
 <template>
-  <div class="movie l-flex">
-   <div class="info" @click="jumpToDouBan">
+  <div class="movie l-flex" @click="jumpToDouBan">
+   <div class="info">
      <p class="movie-title chinese">《{{ calendar.suggestion }}》</p>
      <div class="rate l-flex">
       <div class="rating">{{ calendar.rating }}</div>

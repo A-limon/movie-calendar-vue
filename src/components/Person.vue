@@ -1,5 +1,5 @@
 <template>
-	<div class="person chinese l-flex">
+  <div class="person chinese l-flex">
     <p class="content">
       <span v-if="!calendar.contributor">“</span>{{ calendar.content }}<span v-if="!calendar.contributor">”</span>
       <span v-if="calendar.contributor" class="contributor">—— ID：{{ calendar.contributor }}</span>
@@ -11,7 +11,7 @@
 export default {
   name: 'Person',
   props: {
-  	calendar: {
+    calendar: {
       type: Object
     }
   }
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style scoped>
-	.person {
+  .person {
     width: 9rem;
     min-height: 2.666667rem;
     margin: 0.773333rem auto;
@@ -47,5 +47,4 @@ export default {
   [data-dpr="3"] .person .contributor {
     font-size: 36px;
   }
-  
 </style>

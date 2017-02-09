@@ -1,5 +1,5 @@
 <template>
-	<div class="date-section">
+  <div class="date-section">
     <p :class="['date', {'weekend': isWeekend}]">
       {{ date }}
     </p>
@@ -27,7 +27,7 @@ export default {
     today: {
       type: Date
     },
-  	calendar: {
+    calendar: {
       type: Object
     }
   },
@@ -60,7 +60,7 @@ export default {
     margin: 0 auto;
     position: relative;
   }
-	.date {
+  .date {
     padding: 0.6rem 0 0.1rem 0;
     text-align: center;
     line-height: 100%;

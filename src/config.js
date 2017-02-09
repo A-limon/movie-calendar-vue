@@ -4,5 +4,5 @@ const APP_DATA = {
 }
 
 export default {
-	APP_DATA
+  APP_DATA
 }
